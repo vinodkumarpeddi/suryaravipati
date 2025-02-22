@@ -11,7 +11,7 @@ type SocialLink = {
 
 const socialLinks: SocialLink[] = [
   { href: 'https://github.com/23a95a1210', icon: <FaGithub />, alt: 'GitHub' },
-  { href: 'https://www.linkedin.com/in/surya-ravipati-653ab72a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', icon: <FaLinkedin />, alt: 'LinkedIn' },
+  { href: 'https://www.linkedin.com/in/surya-ravipati-653ab72a8', icon: <FaLinkedin />, alt: 'LinkedIn' },
   { href: 'https://x.com/surya__ravipati', icon: <FaTwitter />, alt: 'Twitter X' },
   { href: 'https://www.instagram.com/surya__ravipati/', icon: <FaInstagram />, alt: 'Instagram' },
 ];
@@ -23,11 +23,11 @@ const Contact: React.FC = () => {
         <div className="lg:grid lg:grid-cols-2 lg:items-stretch">
           {/* Left Side */}
           <div className="mb-12 lg:mb-0 lg:flex lg:flex-col">
-            <h2 className="text-4xl font-bold mb-6 text-transparent bg-clip-text bg-white  drop-shadow-lg">
+            <h2 className="text-4xl font-bold mb-6 text-transparent bg-clip-text bg-white drop-shadow-lg">
               Let&apos;s Work Together!
             </h2>
             <p className="text-gray-300 mb-8 max-w-md">
-              Get in touch to start an exciting collaboration! I'm always open to new opportunities.
+              Get in touch to start an exciting collaboration! I&apos;m always open to new opportunities.
             </p>
 
             {/* Social Links */}
@@ -91,7 +91,7 @@ const Contact: React.FC = () => {
                 name="message"
                 id="message"
                 required
-                placeholder="Hey Surya, let's work on something amazing!"
+                placeholder="Hey Surya, let&apos;s work on something amazing!"
                 className="w-full p-3 rounded-lg bg-gray-700 border-none focus:ring-2 focus:ring-teal-500 text-white transition resize-y min-h-32 max-h-80"
               ></textarea>
             </div>
